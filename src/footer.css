@@ -1,0 +1,106 @@
+
+   
+    .footer-sec{
+        background-color: #000000;
+        color: #ffff;
+    }
+    .footer{
+    border-bottom:1px solid gray ;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    }
+    .footer i{
+      color: orangered;
+      margin: 5px;
+      font-size: 26px;
+    }
+    .footer p{
+      margin-left: 30px;
+    }
+    .footer span{
+      font-size: 25px;
+    }
+    .footer-page{
+      margin-top: 20px;
+    }
+    .footer-page img{
+      width: 211px;
+    
+    }
+    .footer-page span ul li{
+    list-style: none;
+    display: inline;
+    font-family: math;
+    
+    }
+    .footer-page span ul{
+      margin-top: 10px;
+      margin-left: 10px;
+      position: relative;
+      left: -52px;
+     
+    }
+    .footer-page .fa-facebook{
+      padding: 10px;
+      margin: 20px;
+      font-size: 20px;
+      border: 1px solid blue;
+      border-radius: 200px;
+      box-shadow: #4154f1;
+      background-color: #4154f1;
+      border-style: none;
+    }
+    .footer-page .fa-instagram{
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      border: 1px solid blue;
+      border-radius: 200px;
+      box-shadow: #4154f1;
+      background-color: orangered;
+      border-style: none;
+    }
+    
+    .footer-page .fa-youtube-play{
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      border: 1px solid blue;
+      border-radius: 200px;
+      box-shadow: #4154f1;
+      background-color: #6e7bf8;
+      border-style: none;
+    }
+    .footer-icon ul li{
+      list-style: none;
+      font-size: 17px;
+      
+    }
+    
+    
+    .footer-page p{
+     
+      margin-top: 20px;
+      margin-left: 10px;
+      font-family: math;
+    }
+    .footer-page h3{
+      margin-left: 10px;
+    }
+    
+    .footer-page input{
+      width: 270px;
+    padding: 10px;
+    background-color: #383838;
+    border-style: none;
+    
+    }
+    .footer-page button{
+      background-color: orangered;
+      width: 60px;
+      padding: 11px;
+      border-style: none;
+    }
+    
+    
+    
