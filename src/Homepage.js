@@ -129,7 +129,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
                     {" "}
-                    <img height="60px" src={globe_earth} />
+                    <img height="60px" src={globe_earth} alt="..."/>
                     <h4 class="mt-4 mb-3">Web Design</h4>
                     <p>
                       For what reason would it be advisable for me to think about business content?
@@ -315,7 +315,7 @@ const Homepage = () => {
               <div class="col-md-12">
                 <div class="Yearly-timeline">
                   <div class="timeline">
-                    <a href="" class="timeline-content">
+                    <a href="/#" class="timeline-content" >
                       <div class="timeline-icon">
                         <img height="50px" src={api_icon} alt="..." />
                       </div>
@@ -325,11 +325,11 @@ const Homepage = () => {
                         cutting-edge solutions that exceed our clients'
                         expectations.
                       </p>
-                      <a className="btn_click">Read More....</a>
+                    
                     </a>
                   </div>
                   <div class="timeline">
-                    <a href="" class="timeline-content">
+                    <a href="/#" class="timeline-content">
                       <div class="timeline-icon">
                         {" "}
                         <img height="50px" src={handshake_icon} alt="..." />
@@ -339,11 +339,11 @@ const Homepage = () => {
                         we are dedicated to delivering exceptional service and
                         support to our clients.
                       </p>
-                      <a className="btn_click">Read More....</a>
+                   
                     </a>
                   </div>
                   <div class="timeline">
-                    <a href="" class="timeline-content">
+                    <a href="/#" class="timeline-content">
                       <div class="timeline-icon">
                         <img height="50px" src={contact_icon} alt="..." />
                       </div>
@@ -353,20 +353,19 @@ const Homepage = () => {
                         in all our interactions and transactions with our
                         clients.
                       </p>
-                      <a className="btn_click">Read More....</a>
                     </a>
                   </div>
                   <div class="timeline">
-                    <a href="" class="timeline-content">
+                    <a href="/#" class="timeline-content">
                       <div class="timeline-icon">
-                        <img height="50px" src={group_icon} />
+                        <img height="50px" src={group_icon} alt="..."/>
                       </div>
                       <h6>Value for Clients</h6>
                       <p>
                         we are committed to delivering exceptional value to our
                         clients in every interaction and engagement.
                       </p>
-                      <a className="btn_click">Read More....</a>
+                 
                     </a>
                   </div>
                 </div>
@@ -393,7 +392,7 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="..."
                     />
 
                     <h2> Lorem ipsum</h2>
@@ -427,7 +426,7 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="..."
                     />
 
                     <h2> Lorem ipsum</h2>
@@ -461,115 +460,7 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
-                    />
-
-                    <h2> Lorem ipsum</h2>
-                    <ul>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                    </ul>
-                    <span>
-                      <i class="fa fa-quote-left"></i>
-                    </span>
-                    <p>
-                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
-                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
-                      reiciendis, possimus culpa placeat necessitatibus molestias
-                      impedit totam laboriosam quod corrupti quos nemo.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-4">
-                  <div className="swip-img">
-                    <img
-                      className="img-fluid"
-                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
-                    />
-
-                    <h2> Lorem ipsum</h2>
-                    <ul>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                    </ul>
-                    <span>
-                      <i class="fa fa-quote-left"></i>
-                    </span>
-                    <p>
-                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
-                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
-                      reiciendis, possimus culpa placeat necessitatibus molestias
-                      impedit totam laboriosam quod corrupti quos nemo.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="swip-img">
-                    <img
-                      className="img-fluid"
-                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
-                    />
-
-                    <h2> Lorem ipsum</h2>
-                    <ul>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                      <li>
-                        <i class="fa fa-star-o"></i>
-                      </li>
-                    </ul>
-                    <span>
-                      <i class="fa fa-quote-left"></i>
-                    </span>
-                    <p>
-                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
-                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
-                      reiciendis, possimus culpa placeat necessitatibus molestias
-                      impedit totam laboriosam quod corrupti quos nemo.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="swip-img">
-                    <img
-                      className="img-fluid"
-                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="....."
                     />
 
                     <h2> Lorem ipsum</h2>
@@ -609,7 +500,7 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="...."
                     />
 
                     <h2> Lorem ipsum</h2>
@@ -643,7 +534,7 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="...."
                     />
 
                     <h2> Lorem ipsum</h2>
@@ -677,7 +568,115 @@ const Homepage = () => {
                     <img
                       className="img-fluid"
                       src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
-                      alt=""
+                      alt="...."
+                    />
+
+                    <h2> Lorem ipsum</h2>
+                    <ul>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                    </ul>
+                    <span>
+                      <i class="fa fa-quote-left"></i>
+                    </span>
+                    <p>
+                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
+                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
+                      reiciendis, possimus culpa placeat necessitatibus molestias
+                      impedit totam laboriosam quod corrupti quos nemo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4">
+                  <div className="swip-img">
+                    <img
+                      className="img-fluid"
+                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
+                      alt="...."
+                    />
+
+                    <h2> Lorem ipsum</h2>
+                    <ul>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                    </ul>
+                    <span>
+                      <i class="fa fa-quote-left"></i>
+                    </span>
+                    <p>
+                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
+                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
+                      reiciendis, possimus culpa placeat necessitatibus molestias
+                      impedit totam laboriosam quod corrupti quos nemo.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="swip-img">
+                    <img
+                      className="img-fluid"
+                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
+                      alt="..."
+                    />
+
+                    <h2> Lorem ipsum</h2>
+                    <ul>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o"></i>
+                      </li>
+                    </ul>
+                    <span>
+                      <i class="fa fa-quote-left"></i>
+                    </span>
+                    <p>
+                      Lorem3 ipsum dolor, sit amet consectetur adipisicing elit.
+                      Minima quo fugiat quaerat quae nulla vero iusto perspiciatis
+                      reiciendis, possimus culpa placeat necessitatibus molestias
+                      impedit totam laboriosam quod corrupti quos nemo.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="swip-img">
+                    <img
+                      className="img-fluid"
+                      src="https://st4.depositphotos.com/5228995/20079/i/450/depositphotos_200790088-stock-photo-man-in-official-wear-in.jpg"
+                      alt="..."
                     />
 
                     <h2> Lorem ipsum</h2>
