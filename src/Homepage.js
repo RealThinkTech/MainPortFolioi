@@ -2,10 +2,7 @@ import { useState } from "react";
 import "./Homepage.css";
 import "./Blog.css";
 import Enqiry from "./Enqiry";
-import realthink from "./image/REALTHINK.png";
-import bannars from "./image/bannner2.png";
 import lakes from "./image/RTT.jpg";
-
 import Aboutimg from "./image/pexels-christina-morillo-1181396.jpg";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,11 +13,19 @@ import { FaStar } from "react-icons/fa";
 import { ImQuotesLeft } from "react-icons/im";
 import handshake_icon from "./image/handshake.png";
 import api_icon from "./image/api.png";
-import globe_earth from "./image/globe-earth.gif";
 import why from "./image/why choose.png";
-
-
-
+import virus from "./image/virus.gif";
+import Ui from "./image/monitor.gif";
+import app from "./image/smartphone.gif";
+import graphic from "./image/hacker.gif";
+import web from "./image/web-structure.gif";
+import seo from "./image/page-optimization.gif";
+import classroom from "./image/classroom.gif";
+import tranning from "./image/presentation.gif";
+import blog_banner from "./image/Blog_banner.jpeg";
+import  aratbimg from "./image/artab2024-03-24 at 6.36.11 PM.png";
+import  nvimg from "./image/webnv2024-03-24 at 6.38.47 PM.png";
+import  rusrtimg from "./image/webrust2024-03-24 at 6.41.35 PM.png";
 
 
 const Homepage = () => {
@@ -28,14 +33,14 @@ const Homepage = () => {
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
-    
+
   };
   return (
     <>
 
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <img src={lakes} className="col-lg-12 col-md-12 col-12 banner_1" alt="..." />
+          <img src={lakes} className="col-lg-12 col-md-12 col-12  banner_1" style={{ height: 650 }} alt="..." />
           <div class="background background0"></div>
           <div class="background background1"></div>
           <div class="background background2"></div>
@@ -178,13 +183,13 @@ const Homepage = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={realthink} className="col-lg-12 col-md-12 col-12 banner_1" style={{height:600}}  alt="..." />
+          <img src="bannner2.png" className="col-lg-12 col-md-12 col-12 banner_1" style={{ height: 650 }} alt="..." />
 
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img src={bannars} className="col-lg-12 col-md-12 col-12" style={{height:600}} alt="..." />
+          <img src="new .png" className="col-lg-12 col-md-12 col-12 banner_1" style={{ height: 650 }} alt="..." />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
 
@@ -203,7 +208,9 @@ const Homepage = () => {
                   <h3>About Us</h3>
                   <p>REALTHINK TECHNOLOGY is a cutting-edge technology company specializing in providing innovative solutions for businesses worldwide.
                     We have rapidly grown into a leading provider of Software and UI/UX Development known for our commitment to excellence and customer satisfaction.
-                    Our team consists of highly skilled professionals with years of experience in the technology industry .We are committed to staying ahead of the curve by continuously innovating and adopting new technologies.We believe in building long-term partnerships with our clients, working together to achieve mutual success.</p>
+                    Our team consists of highly skilled professionals with years of experience in the technology industry .We are committed to staying ahead of the curve by continuously innovating and adopting new technologies.We believe in building long-term partnerships with our clients, working together to achieve mutual success.
+                    We adhere to rigorous quality standards and best practices to ensure that our software solutions are reliable, scalable, and secure. Quality is embedded in every stage of our development process.
+                    </p>
                   <a className="readmore" href="...">Know more...</a>
                 </div>
               </div>
@@ -235,7 +242,7 @@ const Homepage = () => {
                 <div class="card ">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={virus} alt="..." />
                     <h4 class="mt-4 mb-3">Software Development</h4>
                     <p>
                       Innovative software solutions driving business success and technological advancement effortlessly.
@@ -248,7 +255,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={Ui} alt="..." />
                     <h4 class="mt-4 mb-3">UI/UX Design</h4>
                     <p>
                       Designing immersive experiences that captivate users and drive meaningful interactions.
@@ -261,7 +268,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={app} alt="..." />
                     <h4 class="mt-4 mb-3">App Development</h4>
                     <p>
                       Our Custom Mobile App Development service offers end-to-end solutions for businesses and individuals looking to create innovative and user-friendly mobile applications.
@@ -274,7 +281,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={graphic} alt="..." />
                     <h4 class="mt-4 mb-3">Graphics Design</h4>
                     <p>
                       Comprehensive training programs covering the fundamentals of graphic design.
@@ -287,7 +294,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={web} alt="..." />
                     <h4 class="mt-4 mb-3">Web Development</h4>
                     <p>
                       We can help you to design and develop a new website, or to update your existing website. We specialize in creating user-friendly websites.
@@ -300,7 +307,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={seo} alt="..." />
                     <h4 class="mt-4 mb-3">SEO & Digital Marketing</h4>
                     <p>
                       This training program is designed for fresher students who are interested in learning about search engine optimization (SEO) and digital marketing.
@@ -313,7 +320,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
 
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={classroom} alt="..." />
                     <h4 class="mt-4 mb-3">Training for fresher</h4>
                     <p>
                       This training program is designed for fresher students who are interested in pursuing a career in web/App and Software development.
@@ -326,7 +333,7 @@ const Homepage = () => {
                 <div class="card">
                   <div class="card-body">
                     {" "}
-                    <img height="60px" src={globe_earth} alt="..." />
+                    <img height="60px" src={tranning} alt="..." />
                     <h4 class="mt-4 mb-3">Online Courses</h4>
                     <p>
                       This course is designed for fresher students who are interested in learning the essentials of web/App and Software development.
@@ -361,7 +368,7 @@ const Homepage = () => {
                     <div className="cardbox">
                       <h6>Expertise in Web Development:</h6>
                       <p>
-                        {" "}
+
                         Our team comprises highly skilled and experienced web
                         developers who are proficient in a wide range of
                         programming languages, frameworks, and technologies.
@@ -374,7 +381,7 @@ const Homepage = () => {
                     <div className="cardbox">
                       <h6>Customized Solutions</h6>
                       <p>
-                        {" "}
+
                         understand that every project is unique. That's why we
                         take a personalized approach to development, crafting
                         custom solutions tailored to your specific requirements
@@ -394,7 +401,7 @@ const Homepage = () => {
                     <div className="cardbox">
                       <h6>Responsive and Mobile-Friendly Designs</h6>
                       <p>
-                        
+
                         Our team comprises highly skilled and experienced web
                         developers who are proficient in a wide range of
                         programming languages, frameworks, and technologies.
@@ -429,7 +436,9 @@ const Homepage = () => {
         <div class="container">
           <div class="row">
             <div className='col-lg-3'></div>
-            <div className='col-lg-6 vlog'><p>Portfolio</p></div>
+            <div className='col-lg-6 vlog  img-card-q'>
+              <button>Portfolio</button>
+            </div>
             <div className='col-lg-3'></div>
             <div className='col-lg-3'></div>
             <div className='col-lg-6 vlog'><h1>Our Recent Projects</h1></div>
@@ -437,29 +446,29 @@ const Homepage = () => {
 
             <div className='col-lg-4'>
               <div className='blog-home'>
-                <img src='https://roctics.com/assets/img/blog/blog-1.jpg' style={{ width: '100%' }}
+                <img src={aratbimg} style={{ width: '100%' }}
                   alt='...'></img>
-                <p>Tue,jun 15</p>
-                <h5>How a website/ERP/Software boosts your bussiness</h5>
-                <button>Read More</button>
+               
+                <h5>Aratb Property Booking Site</h5>
+                <h5><a className="btn btn-primary" href="https://aratb.com/" rel="noreferrer" target="_blank">Visit Website</a></h5>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='blog-home'>
-                <img src='https://roctics.com/assets/img/blog/blog-1.jpg' style={{ width: '100%' }}
+                <img src={nvimg} style={{ width: '100%' }}
                   alt=''></img>
-                <p>Tue,jun 15</p>
-                <h5>How a website/ERP/Software boosts your bussiness</h5>
-                <button>Read More</button>
+                
+                <h5>NVsparkle E-Commerce</h5>
+                <h5><a className="btn btn-primary" href="https://nvsparkle.com/" rel="noreferrer" target="_blank">Visit Website</a></h5>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='blog-home'>
-                <img src='https://roctics.com/assets/img/blog/blog-3.jpg' style={{ width: '100%' }}
+                <img src={rusrtimg} style={{ width: '100%' }}
                   alt=''></img>
-                <p>Tue,jun 15</p>
-                <h5>How a website/ERP/Software boosts your bussiness</h5>
-                <button>Read More</button>
+               
+                <h5>Rust Console Community Social-Media</h5>
+                <h5><a className="btn btn-primary" href="https://rust-consolecommunity.com" rel="noreferrer" target="_blank">Visit Website</a></h5>
               </div>
             </div>
           </div>
@@ -560,10 +569,10 @@ const Homepage = () => {
             <div class="col-lg-3 col-12">
               <div class="img-w">
                 <img
-                  src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-1.jpg "
-                  style={{ width: "100%" }} alt="..."
+                  src={blog_banner}
+                  style={{ width: "100%", height: 250 }} alt="..."
                 />
-                <ul>
+                <ul className="Social_icon">
                   <li>
                     <i class="fa fa-instagram"></i>
                   </li>
@@ -576,83 +585,96 @@ const Homepage = () => {
                   <li>
                     <i class="fa fa-linkedin-square"></i>
                   </li>
-                </ul>
-                <h5>Walter White</h5>
-                <p>Chief Executive Officer</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-12">
-              <div class="img-w">
-                <img
-                  src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-2.jpg"
-                  style={{ width: "100%" }} alt="..."
-                />
-                <ul>
-                  <li>
+                </ul> <ul className="Social_icon" >
+                  <li className="insta" >
                     <i class="fa fa-instagram"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-youtube-play"></i>
+                  <li className="youtub">
+                    <i className="fa fa-youtube-play"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-twitter"></i>
+                  <li className="twit">
+                    <i className="fa fa-twitter"></i>
                   </li>
-                  <li>
+                  <li className="linked">
                     <i class="fa fa-linkedin-square"></i>
                   </li>
                 </ul>
-                <h5>Sarah Jhonson</h5>
-                <p>Product Manager</p>
+                <h5>Our Best Service </h5>
+               
               </div>
             </div>
-            <div class="col-lg-3 col-12">
-              <div class="img-w">
+            <div className="col-lg-3 col-12">
+              <div className="img-w">
                 <img
-                  src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-3.jpg"
-                  style={{ width: "100%" }} alt="..."
+                  src="breaking.png"
+                  style={{ width: "100%", height: 250 }} alt="..."
                 />
-                <ul>
-                  <li>
+                <ul className="Social_icon" >
+                  <li className="insta" >
                     <i class="fa fa-instagram"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-youtube-play"></i>
+                  <li className="youtub">
+                    <i className="fa fa-youtube-play"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-twitter"></i>
+                  <li className="twit">
+                    <i className="fa fa-twitter"></i>
                   </li>
-                  <li>
+                  <li className="linked">
                     <i class="fa fa-linkedin-square"></i>
                   </li>
                 </ul>
-                <h5>William Anderson</h5>
-                <p>CTO</p>
+                <h5>Announcement For Fresher</h5>
+               
               </div>
             </div>
             <div class="col-lg-3 col-12">
               <div class="img-w">
                 <img
-                  src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/team/team-4.jpg "
-                  style={{ width: "100%" }} alt="..."
+                  src="How_design.png"
+                  style={{ width: "100%", height: 250 }} alt="..."
+                />
+                <ul className="Social_icon" >
+                  <li className="insta" >
+                    <i class="fa fa-instagram"></i>
+                  </li>
+                  <li className="youtub">
+                    <i className="fa fa-youtube-play"></i>
+                  </li>
+                  <li className="twit">
+                    <i className="fa fa-twitter"></i>
+                  </li>
+                  <li className="linked">
+                    <i class="fa fa-linkedin-square"></i>
+                  </li>
+                </ul>
+                <h5>How To Design Like a Pro</h5>
+                
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="img-w">
+                <img
+                  src="Ai.png "
+                  style={{ width: "100%", height: 250 }} alt="..."
                 />
 
-                <ul>
-                  <li>
+                <ul className="Social_icon" >
+                  <li className="insta" >
                     <i class="fa fa-instagram"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-youtube-play"></i>
+                  <li className="youtub">
+                    <i className="fa fa-youtube-play"></i>
                   </li>
-                  <li>
-                    <i class="fa fa-twitter"></i>
+                  <li className="twit">
+                    <i className="fa fa-twitter"></i>
                   </li>
-                  <li>
+                  <li className="linked">
                     <i class="fa fa-linkedin-square"></i>
                   </li>
                 </ul>
 
-                <h5>Amanda Jepson</h5>
-                <p>Accountant</p>
+                <h5>Best Artificial Intelligence Website</h5>
+                
               </div>
             </div>
           </div>
@@ -682,16 +704,18 @@ const Homepage = () => {
             </div>
 
 
-            <div className="row">
-
-              <div className=" col-lg-4 col-12 ">
+            
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item >
+        <div className="row">
+        <div className=" col-lg-4 col-12 ">
                 <div className="box ">
                   <ImQuotesLeft />
-                  <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                  <p>Working with Realthink Technology has been an absolute pleasure. Their team is incredibly talented, professional, and dedicated to delivering top-notch results. I highly recommend them to anyone looking for exceptional software solutions.</p>
                   <div class="content">
                     <div class="info">
-                      <div class="name">Alex Smith</div>
-                      <div class="job">Designer | Developer</div>
+                      <div class="name">John Smith, CEO,</div>
+                      <div class="job">ABC Company</div>
                       <div class="stars">
                         <FaStar />
                         <FaStar />
@@ -701,21 +725,20 @@ const Homepage = () => {
                       </div>
                     </div>
                     <div class="image">
-                      <img src={groupicon} alt="..." />
+                      <img src="Test1.png" alt="..." />
                     </div>
                   </div>
                 </div>
-
               </div>
 
               <div className=" col-lg-4 col-12 ">
                 <div class="box">
                   <ImQuotesLeft />
-                  <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                  <p>Choosing Realthink Technology was one of the best decisions we made for our business. Their team not only delivered a high-quality product but also provided invaluable guidance and support throughout the entire process. </p>
                   <div class="content">
                     <div class="info">
-                      <div class="name">Steven Chris</div>
-                      <div class="job">YouTuber | Blogger</div>
+                      <div class="name">Michael Davis, Founder,</div>
+                      <div class="job">XYZ Corporation</div>
                       <div class="stars">
                         <FaStar />
                         <FaStar />
@@ -725,7 +748,7 @@ const Homepage = () => {
                       </div>
                     </div>
                     <div class="image">
-                      <img src={groupicon} alt="..." />
+                    <img src="Test1.png" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -733,7 +756,7 @@ const Homepage = () => {
               <div className=" col-lg-4 col-12 ">
                 <div class="box">
                   <ImQuotesLeft />
-                  <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                  <p>"Working with REALTHINK TECHNOLOGY was a breath of fresh air. They took the time to understand our unique needs and delivered a solution that exceeded our expectations. Their communication was excellent"</p>
                   <div class="content">
                     <div class="info">
                       <div class="name">Kristina Bellis</div>
@@ -747,13 +770,169 @@ const Homepage = () => {
                       </div>
                     </div>
                     <div class="image">
-                      <img src={groupicon} alt="..." />
+                      <img src="testi.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </Carousel.Item>
+
+        <Carousel.Item>
+        <div className="row">
+        <div className=" col-lg-4 col-12 ">
+                <div className="box ">
+                  <ImQuotesLeft />
+                  <p>Working with Realthink Technology has been an absolute pleasure. Their team is incredibly talented, professional, and dedicated to delivering top-notch results. I highly recommend them to anyone looking for exceptional software solutions.</p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">John Smith, CEO,</div>
+                      <div class="job">ABC Company</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="testi.png" alt="..." />
                     </div>
                   </div>
                 </div>
               </div>
 
-            </div>
+              <div className=" col-lg-4 col-12 ">
+                <div class="box">
+                  <ImQuotesLeft />
+                  <p>Choosing Realthink Technology was one of the best decisions we made for our business. Their team not only delivered a high-quality product but also provided invaluable guidance and support throughout the entire process. </p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Michael Davis, Founder,</div>
+                      <div class="job">XYZ Corporation</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="Test1.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className=" col-lg-4 col-12 ">
+                <div class="box">
+                  <ImQuotesLeft />
+                  <p>"Working with REALTHINK TECHNOLOGY was a breath of fresh air. They took the time to understand our unique needs and delivered a solution that exceeded our expectations. Their communication was excellent"</p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Kristina Bellis</div>
+                      <div class="job">Freelancer | Advertiser</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="Test3.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+        <div className="row">
+        <div className=" col-lg-4 col-12 ">
+                <div className="box ">
+                  <ImQuotesLeft />
+                  <p>Working with Realthink Technology has been an absolute pleasure. Their team is incredibly talented, professional, and dedicated to delivering top-notch results. I highly recommend them to anyone looking for exceptional software solutions.</p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">John Smith, CEO,</div>
+                      <div class="job">ABC Company</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="Test1.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className=" col-lg-4 col-12 ">
+                <div class="box">
+                  <ImQuotesLeft />
+                  <p>Choosing Realthink Technology was one of the best decisions we made for our business. Their team not only delivered a high-quality product but also provided invaluable guidance and support throughout the entire process. </p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Michael Davis, Founder,</div>
+                      <div class="job">XYZ Corporation</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="Test1.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className=" col-lg-4 col-12 ">
+                <div class="box">
+                  <ImQuotesLeft />
+                  <p>"Working with REALTHINK TECHNOLOGY was a breath of fresh air. They took the time to understand our unique needs and delivered a solution that exceeded our expectations. Their communication was excellent"</p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Kristina Bellis</div>
+                      <div class="job">Freelancer | Advertiser</div>
+                      <div class="stars">
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="Test3.png" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+        </Carousel.Item>
+
+      </Carousel>
+
+
+              
+
+             
+              
+
+           
           </div>
         </div>
 

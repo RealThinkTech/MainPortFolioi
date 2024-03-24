@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./About"
 import Homepage from "./Homepage";
 import Portfolio from "../src/Portfolio"
+import Service from "../src/service"
 import Nav from "./Nav";
+import Contact from "./Contact";
 
 import Blog from "../src/Blog";
 
@@ -20,7 +22,8 @@ export default function App() {
           <Route  path="About" element={<About />} />
           <Route  path="Portfolio" element={<Portfolio />} />
           <Route  path="Blog" element={<Blog />} />
-          
+          <Route  path="Service" element={<Service />} />
+          <Route  path="Contact" element={<Contact />} />
        </Route>
       </Routes>
      

@@ -1,0 +1,52 @@
+.main-section{
+    color:#fff;
+}
+
+.card_1{
+    background-color:#fff;
+    text-align:center;
+    padding:20px 0px 20px 0px;
+    border-top:5px solid #fc1b1b;
+    margin-bottom: 20px;
+}
+.card1{
+    border-top:5px solid #106eea;
+}
+.card2{
+    border-top:5px solid rgb(255, 81, 0);
+}
+.card3{
+    border-top:5px solid green;
+}
+
+.Dimond_icon{
+    height:50px;
+    width:50px;
+    text-align:center;
+    border:1px solid #fc1b1b;
+    border-radius:50%;
+    padding-top: 13px;
+    margin-bottom: 10px;
+    color:#fc1b1b;
+}
+.Dimond_icon1{
+color:#106eea;
+border-color: #106eea;
+}
+.Dimond_icon2{
+    color:rgb(255, 81, 0);
+    border-color: rgb(255, 81, 0);
+    }
+    .Dimond_icon3{
+        color: green;
+        border-color: green;
+        }
+.serviceimg{
+    width: 100%;
+}
+.img-fluid{
+    box-shadow: 0 4px 16px rgba(244, 239, 239, 0.1);
+}
+.Service_left p{
+    color: #fff;
+}

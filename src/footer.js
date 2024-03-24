@@ -1,6 +1,7 @@
 import "./footer.css";
 import imge from "./image/1-removebg-preview.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link, Outlet } from "react-router-dom";
 function Footer() {
     return (
         <>
@@ -45,16 +46,15 @@ function Footer() {
                                 <h2 className="usefull-link">Useful Links</h2>
                                 <div className="footer-icon">
                                     <ul>
-                                        <li>Home</li>
-                                        <li>Services</li>
-                                        <li>Contact</li>
-                                        <li>Our Services</li>
-                                        <li>Contact</li>
-                                        <li>Home</li>
-                                        <li>Services</li>
-                                        <li>Contact</li>
-                                    </ul>
 
+                                        <li>Home</li>
+                                        <li>About</li>
+                                        <li>Portfolio</li>
+                                        <li>Service</li>
+                                        <li>Blog</li>
+                                        <li>Contact Us</li>
+
+                                    </ul>
                                 </div>
                             </div>
                             <div className='col-lg-4'>
@@ -66,6 +66,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <Outlet />
         </>
     );
 }
