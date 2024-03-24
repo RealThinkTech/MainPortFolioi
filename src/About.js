@@ -1,14 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Aboutus from "./image/about us.png";
 function About() {
   return (
     <>
       <div className="about-img">
-                <img
-                  src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/about.jpg"
-                  alt=""
-                  style={{ width: "100%" }}
-                ></img>
+      <img src={Aboutus} className="img-fluid" alt="..." />
               </div>
       <div className="container-fluid about-page">
         <div className="container">

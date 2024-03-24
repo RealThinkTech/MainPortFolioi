@@ -6,7 +6,7 @@ import Portfolio from "../src/Portfolio"
 import Nav from "./Nav";
 
 import Blog from "../src/Blog";
-import Enqiry from "./Enqiry";
+
 import Footer from "./footer";
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
      
     </BrowserRouter>
     
-      <Enqiry/>
+      
     <Footer/>
     </div>
   

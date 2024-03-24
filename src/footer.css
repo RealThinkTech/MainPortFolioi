@@ -1,6 +1,8 @@
 
    
     .footer-sec{
+      margin-top: 50px;
+      padding-top: 20px;
         background-color: #000000;
         color: #ffff;
     }
@@ -15,7 +17,9 @@
       font-size: 26px;
     }
     .footer p{
-      margin-left: 30px;
+      color: #fff;
+    margin-left: 10px;
+    padding-bottom: 10px;
     }
     .footer span{
       font-size: 25px;
@@ -34,8 +38,7 @@
     
     }
     .footer-page span ul{
-      margin-top: 10px;
-      margin-left: 10px;
+     
       position: relative;
       left: -52px;
      
@@ -79,21 +82,25 @@
     
     
     .footer-page p{
-     
+     color: #fff;
       margin-top: 20px;
-      margin-left: 10px;
+      
       font-family: math;
     }
     .footer-page h3{
+      margin-top: 20px;
       margin-left: 10px;
     }
     
     .footer-page input{
       width: 270px;
     padding: 10px;
-    background-color: #383838;
+    outline: none;
     border-style: none;
     
+    }
+    .usefull-link{
+      font-size: 30px;
     }
     .footer-page button{
       background-color: orangered;

@@ -22,7 +22,23 @@
 font-size: 17px;
 color: #fff;
 }
+.img-card-q h2{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 .img-card-q{
+    
     text-align: center;
     margin-bottom: 20px;
+}
+.contact-sec{
+    padding-bottom: 30px;
+}
+.contact-sec h3{
+  color: #fff;
+}
+.contact-sec p{
+    color: #fff;
 }

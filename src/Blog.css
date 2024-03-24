@@ -39,8 +39,6 @@
 
 .img-card{
   margin-top: 60px;
-  background-color: #f6f9fe;
-  /* position: relative; */
 }
 .img-card-q button{
   color: #106eea;
@@ -73,11 +71,10 @@ font-size: 17px;
  
  }
  .img-w h5{
-     margin-top: 10px;
-     /* float: left; */
-     margin-left: 16px;
-     font-size: 17px;
-     color:#e4e9ee;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: black;
  }
  .img-w p{
      font-size: 15px;
@@ -115,8 +112,8 @@ transition: opacity 200ms, display 200ms;
 }
 
 .img-card{
-  background-color: #106eea;
   color: #e4e9ee;
+  background: none !important;
 }
 
 
